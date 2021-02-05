@@ -1,7 +1,7 @@
 
 use testdb3;
 
---table for storing January 3rd 2021 page views
+--table for storing December 27th 2020 page views
 create table page_view_jan (
 	domain_code string,
 	page_title string,
@@ -13,7 +13,7 @@ create table page_view_jan (
 
 LOAD DATA LOCAL INPATH '/home/fsenorine/mypages/pageviews-20210103-230000' INTO TABLE page_view_jan;
 
---Table for storing the total page views on January 3rd 2021
+--Table for storing the total page views on December  27th 2020
 create table jan_total_view(
 	page_title string,
 	total_count int	
