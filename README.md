@@ -13,9 +13,16 @@ The questions are listed below:
   6. What were the top ten most viewed wikipedia pages for each hour on January 20, 2021?
   
  Technologies used
-  Hadoop MapReduce
-  YARN
-  HDFS
-  Scala 2.13
-  Hive
-  Git + GitHub
+  1. YARN
+  2. HDFS
+  3. Hive
+  4. Hadoop Map Reduce
+  5. Git + GitHub
+  
+  Dataset Links
+    1. Pageviews Filtered to Human Traffic
+        https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Traffic/Pageviews
+    2. Page Revision and User History
+        https://wikitech.wikimedia.org/wiki/Analytics/Data_Lake/Edits/Mediawiki_history_dumps#Technical_Documentation
+    3. Monthly Clickstream
+        https://meta.wikimedia.org/wiki/Research:Wikipedia_clickstream
